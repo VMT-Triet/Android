@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg_lg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE ACCOUNT"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp">
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/email_icon"
+        android:background="@drawable/login"
+        android:hint="Email"
+        android:layout_margin="20dp">
+
+    </EditText>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:drawableLeft="@drawable/username"
+        android:background="@drawable/login"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+    </EditText>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PassWord"
+        android:drawableLeft="@drawable/pass"
+        android:background="@drawable/login"
+        android:layout_margin="20dp">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comfim PassWord"
+        android:drawableLeft="@drawable/pass"
+        android:background="@drawable/login"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+    </EditText>
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN IN"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </Button>
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        android:onClick="XULY"
+        android:backgroundTint="@color/red"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"></Button>
+
+</LinearLayout>
